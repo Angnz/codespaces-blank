@@ -7,7 +7,7 @@ layout: home
 
 <div class="page">
   <header>
-    <h1>{{ page.title }}</h1>
+    <h1>Online shop example</h1>
   </header>
 
   <div class="content">
