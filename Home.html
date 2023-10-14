@@ -3,70 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/Style.css">
+    <script src="/JSscripts.js"></script>
     <title>Angelus</title>
-    <style>
-        /* Add your CSS styles here */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 2em;
-            padding: 1em;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        button {
-            background-color: #0074d9;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-        }
-
-        code {
-            font-family: 'Courier New', Courier, monospace;
-            color: #333;
-            background-color: #f4f4f4;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            padding: 10px;
-            font-size: 16px;
-            line-height: 1.5;
-            overflow-x: auto;
-        }
-
-        li {
-            line-height: 3em;
-        }
-
-        .messagebox{
-            font-size: 1em;
-            background-color: gray;
-            color: #f0f0f0;
-            padding-top: 1em;
-            padding-bottom: 1em;
-            padding-left: 2em;
-            margin-left: 2em;
-        }
-
-        .messagebox::before{
-            content: "\2192";
-            margin-right: 10px;
-        }
-    </style>
-</head>
+   </head>
 <body>
+
     <header>
         <h1>Angelus <br>Welcome to My shit Page</h1>
     </header>
@@ -74,13 +16,13 @@
    
     <div class="git_container"></div>
 
-    <h2>There is 2 ways how to add Codes into HTML without JS.</h2> 
+        <h2>There is 2 ways how to add Codes into HTML without JS.</h2> 
         <ul>
             <li><code> pre </code></li>
             <li><code> code </code></li>        
         </ul>
 
-    <p class="messagebox">The Example Below will be use with code with some CSS for formatting, otherwise it looks like shit.</p>
+        <p class="messagebox">The Example Below will be use with code with some CSS for formatting, otherwise it looks like shit.</p>
 
         <h2>Uploading to GitHub from VSCode using Git commands MTF's</h2>
         <ul>
@@ -91,18 +33,15 @@
             <li>To add a commit message: <code>$ git commit -m "I uploaded the first HTML page as Home"</code></li>
         </ul>
 
-    <p class="messagebox">Just learned how to upload stuff from VSCode to GitHub using Git commands.</p>
+        <p class="messagebox">Just learned how to upload stuff from VSCode to GitHub using Git commands.</p>
         
         <p>Here's my stuff.</p>
         <button id="btndemierda">a la mierda</button>
 
     </div>
 
-    <script>
-        // Add your JavaScript code here
-        document.getElementById("btndemierda").addEventListener("click", function() {
-            alert("Button clicked!");
-        });
-    </script>
 </body>
 </html>
+git mv old-file.html new-file.html
+git commit -m "Renamed old-file.html to new-file.html"
+git push
