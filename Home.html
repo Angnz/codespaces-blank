@@ -49,6 +49,21 @@
         li {
             line-height: 3em;
         }
+
+        .messagebox{
+            font-size: 1em;
+            background-color: gray;
+            color: #f0f0f0;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            padding-left: 2em;
+            margin-left: 2em;
+        }
+
+        .messagebox::before{
+            content: "\2192";
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
@@ -67,12 +82,11 @@
             <li>To initialize a repository: <code>$ git init</code></li>
             <li>To add files to your repository: <code>$ git add Home.html</code> (Here, "Home.html" is an example)</li>
             <li>To add a commit message: <code>$ git commit -m "I uploaded the first HTML page as Home"</code></li>
-            <li><code></code></li>
-            <li><code></code></li>
         </ul>
 
-        <p>Just learned how to upload stuff from VSCode to GitHub using Git commands.</p>
 
+        <p class="messagebox">Just learned how to upload stuff from VSCode to GitHub using Git commands.</p>
+        
         <p>Here's my stuff.</p>
         <button id="btndemierda">a la mierda</button>
     </div>
