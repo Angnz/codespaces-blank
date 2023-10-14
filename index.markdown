@@ -17,7 +17,7 @@ layout: home
 <body>
 
     <header>
-        <h1>Angelus <br>Welcome to My shit Page</h1>
+        <h1>Angelus <br>Welcome to this Page</h1>
     </header>
 
    
