@@ -1,4 +1,4 @@
 // Hier my JSscripts
 document.getElementById("btndemierda").addEventListener("click", function() {
-    alert("Button clicked!");
+    alert("Me has clickeao, Tio"); 
 });
